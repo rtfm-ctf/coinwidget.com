@@ -37,7 +37,7 @@ var CoinWidgetComCounter = 0;
 
 if (typeof CoinWidgetCom != 'object')
 var CoinWidgetCom = {
-	source: 'http://coinwidget.com/widget/'
+	source: 'https://cdn.rawgit.com/rtfm-ctf/coinwidget.com/master/'
 	, config: []
 	, go :function(config) {
 		config = CoinWidgetCom.validate(config);
